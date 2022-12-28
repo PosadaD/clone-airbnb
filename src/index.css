@@ -1,0 +1,87 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.containerNavbar{
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  padding: 15px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.containerHero{
+  margin: 30px 0;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heroTextContainer{
+  align-self: flex-start;
+  width: 50%; 
+  padding-left: 35px;
+}
+
+.heroTextContainer h4{
+  font-size: 36px;
+}
+
+.containerCart{
+  margin: 20px;
+  position: relative;
+}
+
+.containerCart img{
+  width: 175px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.textCart p{
+  margin: 0;
+  font-size: 12px;
+}
+
+.textCart svg{
+  fill: #ff5a5f;
+}
+
+.spanContainer{
+  display: inline;
+}
+
+.spanContainer span{
+  color:rgb(44, 44, 44);
+  font-size: 12px;
+}
+
+.spanContainer :first-child{
+  font-size: 16px;
+  color: black;
+  margin-right: 5px;
+}
+
+.containerCarts{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.cardBadge{
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: white;
+  padding: 3px 10px;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 3px;
+}
